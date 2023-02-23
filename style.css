@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding:0;
 }
 
 html {
@@ -11,7 +12,7 @@ body {
   font-family:"poppins", sans-serif;
   color: #222;
   background-color: #333;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
-  min-height: 100vh;
+  height:100vh;
   padding: 50px;
 }
 
